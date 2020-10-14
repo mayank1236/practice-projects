@@ -1,0 +1,47 @@
+footer {
+  background-color: rgb(1,24,57);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 0;
+  color: white;
+}
+
+footer * {
+  vertical-align: center;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .nav-link {
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.socio {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+.socio img {
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: calc(1.7em - 75%);
+}
+
+.socio-container {
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 0.2s ease;
+}

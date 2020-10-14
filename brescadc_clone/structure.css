@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(1, 24, 57);
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+/*Content container*/
+
+.container {
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: rgb(1, 24, 57);
+  padding: 0.5em 0em;
+}
+
+.button {
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(1, 24, 57);
+  padding: 0.5em 0.8em;
+  border: 1px solid transparent;
+  border-radius: 5%;
+}
+
+/*Navigation menu*/
+
+.nav {
+  position: relative;
+  display: flex;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  line-height: 1.5;
+}

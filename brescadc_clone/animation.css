@@ -1,0 +1,11 @@
+.button:hover {
+  background: rgb(241, 168, 28);/*START HERE*/
+}
+
+footer .nav-link:hover {
+  color: #DCDCDC;
+}
+
+.socio-container:hover {
+  background-color: #D7D7D7;
+}

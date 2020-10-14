@@ -1,0 +1,42 @@
+#site-header {
+  width: 100%;
+  background-color: rgb(241, 168, 28);
+  padding: 10px 0px;
+  position: fixed;
+  z-index: 10;
+}
+
+/*Making the NAVBAR and LOGO to center vertically*/
+
+#site-header>.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Site logo*/
+
+#site-logo {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: 60px;
+}
+
+.site-logo-btn {
+  display: inherit;
+  list-style: none;
+  content: '';
+  width: 250px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.site-logo__expanded {
+  height: 30px;
+  padding: 15px 0px;
+}
+
+.nav-list li {
+  margin-right: 9px;
+  margin-left: 9px;
+}
