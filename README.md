@@ -1,2 +1,2 @@
 # practice
-All miscellaneious Javascript Css and Html projects as well as tutorials.
+All Javascript projects as well as tutorials.
