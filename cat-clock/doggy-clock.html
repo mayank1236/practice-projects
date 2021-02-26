@@ -1,0 +1,75 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #F0E68C;
+    }
+
+    #page {
+      width: 100%;
+      height: 100%;
+      max-height: 100vh;
+      text-align: center;
+    }
+
+    #dogimg {
+      margin-top: 50px;
+      height: 50%;
+    }
+
+    #clock {
+      width: 100%;
+      height: 100%;
+      font-size: 100px;
+      text-align: center;
+      top: 100%;
+      color: #FF6347;
+      font-family: 'Monda', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="page">
+    <img id="dogimg" src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_1280.jpg">
+
+    <div id="clock">
+      clock goes here
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+
+    var showCurrentTime = function() {
+      var clock = document.getElementById('clock');
+
+      var currentTime = new Date();
+      var hour = currentTime.getHours();
+      var minute = currentTime.getMinutes();
+      var second = currentTime.getSeconds();
+      var meridian = "AM";
+
+      if(hour >= 12) {
+        meridian = "PM";
+      }
+      if(hour < 10) {
+        hour = "0" + hour;
+      }
+      if(minute < 10) {
+        minute = "0" + minute;
+      }
+      if(second < 10) {
+        second = "0" + second;
+      }
+      var clockTime = hour + ":" + minute + ":" + second + " " + meridian;
+
+      clock.innerText = clockTime;
+    };
+
+    showCurrentTime();
+    setInterval(showCurrentTime, 1000);
+  </script>
+</body>
+</html>
